@@ -8,7 +8,7 @@
 		"name": "jQuery Foundation and other contributors",
 		"url": "https://github.com/jquery/jquery-ui/blob/1.12.1/AUTHORS.txt"
 	},
-	"main": "ui/widget.js",
+	"main": "jquery-ui.min.js",
 	"maintainers": [
 		{
 			"name": "Scott González",
