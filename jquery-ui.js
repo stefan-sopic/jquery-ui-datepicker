@@ -2189,19 +2189,7 @@
 }));
 /* Chinese initialisation for the jQuery UI date picker plugin. */
 /* Written by Cloudream (cloudream@gmail.com). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional["zh-CN"] = {
+$.datepicker.regional["zh-CN"] = {
     closeText: "关闭",
     prevText: "&#x3C;上月",
     nextText: "下月&#x3E;",
@@ -2220,26 +2208,9 @@
     showMonthAfterYear: true,
     yearSuffix: "年"
   };
-  datepicker.setDefaults(datepicker.regional["zh-CN"]);
-
-  return datepicker.regional["zh-CN"];
-
-}) );
 /* Chinese initialisation for the jQuery UI date picker plugin. */
 /* Written by SCCY (samuelcychan@gmail.com). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional["zh-HK"] = {
+$.datepicker.regional["zh-HK"] = {
     closeText: "關閉",
     prevText: "&#x3C;上月",
     nextText: "下月&#x3E;",
@@ -2258,26 +2229,9 @@
     showMonthAfterYear: true,
     yearSuffix: "年"
   };
-  datepicker.setDefaults(datepicker.regional["zh-HK"]);
-
-  return datepicker.regional["zh-HK"];
-
-}) );
 /* Georgian (UTF-8) initialisation for the jQuery UI date picker plugin. */
 /* Written by Lado Lomidze (lado.lomidze@gmail.com). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.ka = {
+$.datepicker.regional.ka = {
     closeText: "დახურვა",
     prevText: "&#x3c; წინა",
     nextText: "შემდეგი &#x3e;",
@@ -2307,26 +2261,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.ka);
-
-  return datepicker.regional.ka;
-
-}) );
 /* Kazakh (UTF-8) initialisation for the jQuery UI date picker plugin. */
 /* Written by Dmitriy Karasyov (dmitriy.karasyov@gmail.com). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.kk = {
+$.datepicker.regional.kk = {
     closeText: "Жабу",
     prevText: "&#x3C;Алдыңғы",
     nextText: "Келесі&#x3E;",
@@ -2345,26 +2282,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.kk);
-
-  return datepicker.regional.kk;
-
-}) );
 /* Afrikaans initialisation for the jQuery UI date picker plugin. */
 /* Written by Renier Pretorius. */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.af = {
+$.datepicker.regional.af = {
     closeText: "Selekteer",
     prevText: "Vorige",
     nextText: "Volgende",
@@ -2383,26 +2303,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.af);
-
-  return datepicker.regional.af;
-
-}) );
 /* Khmer initialisation for the jQuery calendar extension. */
 /* Written by Chandara Om (chandara.teacher@gmail.com). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.km = {
+$.datepicker.regional.km = {
     closeText: "ធ្វើ​រួច",
     prevText: "មុន",
     nextText: "បន្ទាប់",
@@ -2421,29 +2324,12 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.km);
-
-  return datepicker.regional.km;
-
-}) );
 /* Algerian Arabic Translation for jQuery UI date picker plugin.
  /* Used in most of Maghreb countries, primarily in Algeria, Tunisia, Morocco.
  /* Mohamed Cherif BOUCHELAGHEM -- cherifbouchelaghem@yahoo.fr */
 /* Mohamed Amine HADDAD -- zatamine@gmail.com */
 
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional["ar-DZ"] = {
+$.datepicker.regional["ar-DZ"] = {
     closeText: "إغلاق",
     prevText: "&#x3C;السابق",
     nextText: "التالي&#x3E;",
@@ -2461,29 +2347,12 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional["ar-DZ"]);
-
-  return datepicker.regional["ar-DZ"];
-
-}) );
 /* Arabic Translation for jQuery UI date picker plugin. */
 /* Used in most of Arab countries, primarily in Bahrain, */
 /* Kuwait, Oman, Qatar, Saudi Arabia and the United Arab Emirates, Egypt, Sudan and Yemen. */
 /* Written by Mohammed Alshehri -- m@dralshehri.com */
 
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.ar = {
+$.datepicker.regional.ar = {
     closeText: "إغلاق",
     prevText: "&#x3C;السابق",
     nextText: "التالي&#x3E;",
@@ -2501,26 +2370,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.ar);
-
-  return datepicker.regional.ar;
-
-}) );
 /* Lithuanian (UTF-8) initialisation for the jQuery UI date picker plugin. */
 /* @author Arturas Paleicikas <arturas@avalon.lt> */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.lt = {
+$.datepicker.regional.lt = {
     closeText: "Uždaryti",
     prevText: "&#x3C;Atgal",
     nextText: "Pirmyn&#x3E;",
@@ -2547,26 +2399,9 @@
     showMonthAfterYear: true,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.lt);
-
-  return datepicker.regional.lt;
-
-}) );
 /* Luxembourgish initialisation for the jQuery UI date picker plugin. */
 /* Written by Michel Weimerskirch <michel@weimerskirch.net> */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.lb = {
+$.datepicker.regional.lb = {
     closeText: "Fäerdeg",
     prevText: "Zréck",
     nextText: "Weider",
@@ -2593,26 +2428,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.lb);
-
-  return datepicker.regional.lb;
-
-}) );
 /* Chinese initialisation for the jQuery UI date picker plugin. */
 /* Written by Ressol (ressol@gmail.com). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional["zh-TW"] = {
+$.datepicker.regional["zh-TW"] = {
     closeText: "關閉",
     prevText: "&#x3C;上個月",
     nextText: "下個月&#x3E;",
@@ -2631,26 +2449,9 @@
     showMonthAfterYear: true,
     yearSuffix: "年"
   };
-  datepicker.setDefaults(datepicker.regional["zh-TW"]);
-
-  return datepicker.regional["zh-TW"];
-
-}) );
 /* German initialisation for the jQuery UI date picker plugin. */
 /* Written by Milian Wolff (mail@milianw.de). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.de = {
+$.datepicker.regional.de = {
     closeText: "Schließen",
     prevText: "&#x3C;Zurück",
     nextText: "Vor&#x3E;",
@@ -2669,26 +2470,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.de);
-
-  return datepicker.regional.de;
-
-}) );
 /* Azerbaijani (UTF-8) initialisation for the jQuery UI date picker plugin. */
 /* Written by Jamil Najafov (necefov33@gmail.com). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.az = {
+$.datepicker.regional.az = {
     closeText: "Bağla",
     prevText: "&#x3C;Geri",
     nextText: "İrəli&#x3E;",
@@ -2707,26 +2491,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.az);
-
-  return datepicker.regional.az;
-
-}) );
 /* Korean initialisation for the jQuery calendar extension. */
 /* Written by DaeKwon Kang (ncrash.dk@gmail.com), Edited by Genie and Myeongjin Lee. */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.ko = {
+$.datepicker.regional.ko = {
     closeText: "닫기",
     prevText: "이전달",
     nextText: "다음달",
@@ -2745,26 +2512,9 @@
     showMonthAfterYear: true,
     yearSuffix: "년"
   };
-  datepicker.setDefaults(datepicker.regional.ko);
-
-  return datepicker.regional.ko;
-
-}) );
 /* Bulgarian initialisation for the jQuery UI date picker plugin. */
 /* Written by Stoyan Kyosev (http://svest.org). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.bg = {
+$.datepicker.regional.bg = {
     closeText: "затвори",
     prevText: "&#x3C;назад",
     nextText: "напред&#x3E;",
@@ -2784,26 +2534,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.bg);
-
-  return datepicker.regional.bg;
-
-}) );
 /* Vietnamese initialisation for the jQuery UI date picker plugin. */
 /* Translated by Le Thanh Huy (lthanhhuy@cit.ctu.edu.vn). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.vi = {
+$.datepicker.regional.vi = {
     closeText: "Đóng",
     prevText: "&#x3C;Trước",
     nextText: "Tiếp&#x3E;",
@@ -2822,26 +2555,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.vi);
-
-  return datepicker.regional.vi;
-
-}) );
 /* Belarusian initialisation for the jQuery UI date picker plugin. */
 /* Written by Pavel Selitskas <p.selitskas@gmail.com> */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.be = {
+$.datepicker.regional.be = {
     closeText: "Зачыніць",
     prevText: "&larr;Папяр.",
     nextText: "Наст.&rarr;",
@@ -2860,26 +2576,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.be);
-
-  return datepicker.regional.be;
-
-}) );
 /* Bosnian i18n for the jQuery UI date picker plugin. */
 /* Written by Kenan Konjo. */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.bs = {
+$.datepicker.regional.bs = {
     closeText: "Zatvori",
     prevText: "&#x3C;",
     nextText: "&#x3E;",
@@ -2898,26 +2597,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.bs);
-
-  return datepicker.regional.bs;
-
-}) );
 /* Brazilian initialisation for the jQuery UI date picker plugin. */
 /* Written by Leonildo Costa Silva (leocsilva@gmail.com). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional["pt-BR"] = {
+$.datepicker.regional["pt-BR"] = {
     closeText: "Fechar",
     prevText: "&#x3C;Anterior",
     nextText: "Próximo&#x3E;",
@@ -2944,25 +2626,8 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional["pt-BR"]);
-
-  return datepicker.regional["pt-BR"];
-
-}) );
 /* Portuguese initialisation for the jQuery UI date picker plugin. */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.pt = {
+$.datepicker.regional.pt = {
     closeText: "Fechar",
     prevText: "Anterior",
     nextText: "Seguinte",
@@ -2989,26 +2654,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.pt);
-
-  return datepicker.regional.pt;
-
-}) );
 /* Romansh initialisation for the jQuery UI date picker plugin. */
 /* Written by Yvonne Gienal (yvonne.gienal@educa.ch). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.rm = {
+$.datepicker.regional.rm = {
     closeText: "Serrar",
     prevText: "&#x3C;Suandant",
     nextText: "Precedent&#x3E;",
@@ -3051,25 +2699,8 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.rm);
-
-  return datepicker.regional.rm;
-
-}) );
 /* Karrikas-ek itzulia (karrikas@karrikas.com) */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.eu = {
+$.datepicker.regional.eu = {
     closeText: "Egina",
     prevText: "&#x3C;Aur",
     nextText: "Hur&#x3E;",
@@ -3088,29 +2719,12 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.eu);
-
-  return datepicker.regional.eu;
-
-}) );
 /* Romanian initialisation for the jQuery UI date picker plugin.
  *
  * Written by Edmond L. (ll_edmond@walla.com)
  * and Ionut G. Stan (ionut.g.stan@gmail.com)
  */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.ro = {
+$.datepicker.regional.ro = {
     closeText: "Închide",
     prevText: "&#xAB; Luna precedentă",
     nextText: "Luna următoare &#xBB;",
@@ -3129,27 +2743,10 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.ro);
-
-  return datepicker.regional.ro;
-
-}) );
 /* Persian (Farsi) Translation for the jQuery UI date picker plugin. */
 /* Javad Mowlanezhad -- jmowla@gmail.com */
 /* Jalali calendar should supported soon! (Its implemented but I have to test it) */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.fa = {
+$.datepicker.regional.fa = {
     closeText: "بستن",
     prevText: "&#x3C;قبلی",
     nextText: "بعدی&#x3E;",
@@ -3203,26 +2800,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.fa);
-
-  return datepicker.regional.fa;
-
-}) );
 /* Russian (UTF-8) initialisation for the jQuery UI date picker plugin. */
 /* Written by Andrew Stromnov (stromnov@gmail.com). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.ru = {
+$.datepicker.regional.ru = {
     closeText: "Закрыть",
     prevText: "&#x3C;Пред",
     nextText: "След&#x3E;",
@@ -3241,26 +2821,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.ru);
-
-  return datepicker.regional.ru;
-
-}) );
 /* Inicialització en català per a l'extensió 'UI date picker' per jQuery. */
 /* Writers: (joan.leon@gmail.com). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.ca = {
+$.datepicker.regional.ca = {
     closeText: "Tanca",
     prevText: "Anterior",
     nextText: "Següent",
@@ -3279,26 +2842,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.ca);
-
-  return datepicker.regional.ca;
-
-}) );
 /* Finnish initialisation for the jQuery UI date picker plugin. */
 /* Written by Harri Kilpiö (harrikilpio@gmail.com). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.fi = {
+$.datepicker.regional.fi = {
     closeText: "Sulje",
     prevText: "&#xAB;Edellinen",
     nextText: "Seuraava&#xBB;",
@@ -3317,26 +2863,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.fi);
-
-  return datepicker.regional.fi;
-
-}) );
 /* Faroese initialisation for the jQuery UI date picker plugin */
 /* Written by Sverri Mohr Olsen, sverrimo@gmail.com */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.fo = {
+$.datepicker.regional.fo = {
     closeText: "Lat aftur",
     prevText: "&#x3C;Fyrra",
     nextText: "Næsta&#x3E;",
@@ -3363,26 +2892,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.fo);
-
-  return datepicker.regional.fo;
-
-}) );
 /* Czech initialisation for the jQuery UI date picker plugin. */
 /* Written by Tomas Muller (tomas@tomas-muller.net). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.cs = {
+$.datepicker.regional.cs = {
     closeText: "Zavřít",
     prevText: "&#x3C;Dříve",
     nextText: "Později&#x3E;",
@@ -3401,25 +2913,8 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.cs);
-
-  return datepicker.regional.cs;
-
-}) );
 /* Canadian-French initialisation for the jQuery UI date picker plugin. */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional["fr-CA"] = {
+$.datepicker.regional["fr-CA"] = {
     closeText: "Fermer",
     prevText: "Précédent",
     nextText: "Suivant",
@@ -3438,26 +2933,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional["fr-CA"]);
-
-  return datepicker.regional["fr-CA"];
-
-}) );
 /* Slovak initialisation for the jQuery UI date picker plugin. */
 /* Written by Vojtech Rinik (vojto@hmm.sk). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.sk = {
+$.datepicker.regional.sk = {
     closeText: "Zavrieť",
     prevText: "&#x3C;Predchádzajúci",
     nextText: "Nasledujúci&#x3E;",
@@ -3476,26 +2954,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.sk);
-
-  return datepicker.regional.sk;
-
-}) );
 /* Welsh/UK initialisation for the jQuery UI date picker plugin. */
 /* Written by William Griffiths. */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional["cy-GB"] = {
+$.datepicker.regional["cy-GB"] = {
     closeText: "Done",
     prevText: "Prev",
     nextText: "Next",
@@ -3522,27 +2983,10 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional["cy-GB"]);
-
-  return datepicker.regional["cy-GB"];
-
-}) );
 /* Slovenian initialisation for the jQuery UI date picker plugin. */
 /* Written by Jaka Jancar (jaka@kubje.org). */
 /* c = č, s = š z = ž C = Č S = Š Z = Ž */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.sl = {
+$.datepicker.regional.sl = {
     closeText: "Zapri",
     prevText: "&#x3C;Prejšnji",
     nextText: "Naslednji&#x3E;",
@@ -3561,26 +3005,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.sl);
-
-  return datepicker.regional.sl;
-
-}) );
 /* Danish initialisation for the jQuery UI date picker plugin. */
 /* Written by Jan Christensen ( deletestuff@gmail.com). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.da = {
+$.datepicker.regional.da = {
     closeText: "Luk",
     prevText: "&#x3C;Forrige",
     nextText: "Næste&#x3E;",
@@ -3599,26 +3026,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.da);
-
-  return datepicker.regional.da;
-
-}) );
 /* Albanian initialisation for the jQuery UI date picker plugin. */
 /* Written by Flakron Bytyqi (flakron@gmail.com). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.sq = {
+$.datepicker.regional.sq = {
     closeText: "mbylle",
     prevText: "&#x3C;mbrapa",
     nextText: "Përpara&#x3E;",
@@ -3637,26 +3047,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.sq);
-
-  return datepicker.regional.sq;
-
-}) );
 /* Swiss-French initialisation for the jQuery UI date picker plugin. */
 /* Written Martin Voelkle (martin.voelkle@e-tc.ch). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional["fr-CH"] = {
+$.datepicker.regional["fr-CH"] = {
     closeText: "Fermer",
     prevText: "&#x3C;Préc",
     nextText: "Suiv&#x3E;",
@@ -3675,28 +3068,11 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional["fr-CH"]);
-
-  return datepicker.regional["fr-CH"];
-
-}) );
 /* French initialisation for the jQuery UI date picker plugin. */
 /* Written by Keith Wood (kbwood{at}iinet.com.au),
  Stéphane Nahmani (sholby@sholby.net),
  Stéphane Raimbault <stephane.raimbault@gmail.com> */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.fr = {
+$.datepicker.regional.fr = {
     closeText: "Fermer",
     prevText: "Précédent",
     nextText: "Suivant",
@@ -3715,26 +3091,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.fr);
-
-  return datepicker.regional.fr;
-
-}) );
 /* Hebrew initialisation for the UI Datepicker extension. */
 /* Written by Amir Hardon (ahardon at gmail dot com). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.he = {
+$.datepicker.regional.he = {
     closeText: "סגור",
     prevText: "&#x3C;הקודם",
     nextText: "הבא&#x3E;",
@@ -3753,26 +3112,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.he);
-
-  return datepicker.regional.he;
-
-}) );
 /* Kyrgyz (UTF-8) initialisation for the jQuery UI date picker plugin. */
 /* Written by Sergey Kartashov (ebishkek@yandex.ru). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.ky = {
+$.datepicker.regional.ky = {
     closeText: "Жабуу",
     prevText: "&#x3c;Мур",
     nextText: "Кий&#x3e;",
@@ -3791,26 +3133,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.ky);
-
-  return datepicker.regional.ky;
-
-}) );
 /* Hindi initialisation for the jQuery UI date picker plugin. */
 /* Written by Michael Dawart. */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.hi = {
+$.datepicker.regional.hi = {
     closeText: "बंद",
     prevText: "पिछला",
     nextText: "अगला",
@@ -3829,26 +3154,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.hi);
-
-  return datepicker.regional.hi;
-
-}) );
 /* Macedonian i18n for the jQuery UI date picker plugin. */
 /* Written by Stojce Slavkovski. */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.mk = {
+$.datepicker.regional.mk = {
     closeText: "Затвори",
     prevText: "&#x3C;",
     nextText: "&#x3E;",
@@ -3867,26 +3175,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.mk);
-
-  return datepicker.regional.mk;
-
-}) );
 /* Serbian i18n for the jQuery UI date picker plugin. */
 /* Written by Dejan Dimić. */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional["sr-SR"] = {
+$.datepicker.regional["sr-SR"] = {
     closeText: "Zatvori",
     prevText: "&#x3C;",
     nextText: "&#x3E;",
@@ -3905,26 +3196,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional["sr-SR"]);
-
-  return datepicker.regional["sr-SR"];
-
-}) );
 /* Galician localization for 'UI date picker' jQuery extension. */
 /* Translated by Jorge Barreiro <yortx.barry@gmail.com>. */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.gl = {
+$.datepicker.regional.gl = {
     closeText: "Pechar",
     prevText: "&#x3C;Ant",
     nextText: "Seg&#x3E;",
@@ -3943,26 +3217,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.gl);
-
-  return datepicker.regional.gl;
-
-}) );
 /* Serbian i18n for the jQuery UI date picker plugin. */
 /* Written by Dejan Dimić. */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.sr = {
+$.datepicker.regional.sr = {
     closeText: "Затвори",
     prevText: "&#x3C;",
     nextText: "&#x3E;",
@@ -3981,26 +3238,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.sr);
-
-  return datepicker.regional.sr;
-
-}) );
 /* Greek (el) initialisation for the jQuery UI date picker plugin. */
 /* Written by Alex Cicovic (http://www.alexcicovic.com) */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.el = {
+$.datepicker.regional.el = {
     closeText: "Κλείσιμο",
     prevText: "Προηγούμενος",
     nextText: "Επόμενος",
@@ -4019,26 +3259,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.el);
-
-  return datepicker.regional.el;
-
-}) );
 /* Latvian (UTF-8) initialisation for the jQuery UI date picker plugin. */
 /* @author Arturas Paleicikas <arturas.paleicikas@metasite.net> */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.lv = {
+$.datepicker.regional.lv = {
     closeText: "Aizvērt",
     prevText: "Iepr.",
     nextText: "Nāk.",
@@ -4065,26 +3288,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.lv);
-
-  return datepicker.regional.lv;
-
-}) );
 /* Malaysian initialisation for the jQuery UI date picker plugin. */
 /* Written by Mohd Nawawi Mohamad Jamili (nawawi@ronggeng.net). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.ms = {
+$.datepicker.regional.ms = {
     closeText: "Tutup",
     prevText: "&#x3C;Sebelum",
     nextText: "Selepas&#x3E;",
@@ -4103,26 +3309,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.ms);
-
-  return datepicker.regional.ms;
-
-}) );
 /* Malayalam (UTF-8) initialisation for the jQuery UI date picker plugin. */
 /* Written by Saji Nediyanchath (saji89@gmail.com). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.ml = {
+$.datepicker.regional.ml = {
     closeText: "ശരി",
     prevText: "മുന്നത്തെ",
     nextText: "അടുത്തത് ",
@@ -4141,26 +3330,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.ml);
-
-  return datepicker.regional.ml;
-
-}) );
 /* Norwegian Bokmål initialisation for the jQuery UI date picker plugin. */
 /* Written by Bjørn Johansen (post@bjornjohansen.no). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.nb = {
+$.datepicker.regional.nb = {
     closeText: "Lukk",
     prevText: "&#xAB;Forrige",
     nextText: "Neste&#xBB;",
@@ -4190,26 +3362,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.nb);
-
-  return datepicker.regional.nb;
-
-}) );
 /* English/Australia initialisation for the jQuery UI date picker plugin. */
 /* Based on the en-GB initialisation. */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional["en-AU"] = {
+$.datepicker.regional["en-AU"] = {
     closeText: "Done",
     prevText: "Prev",
     nextText: "Next",
@@ -4228,26 +3383,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional["en-AU"]);
-
-  return datepicker.regional["en-AU"];
-
-}) );
 /* Dutch (Belgium) initialisation for the jQuery UI date picker plugin. */
 /* David De Sloovere @DavidDeSloovere */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional["nl-BE"] = {
+$.datepicker.regional["nl-BE"] = {
     closeText: "Sluiten",
     prevText: "←",
     nextText: "→",
@@ -4266,26 +3404,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional["nl-BE"]);
-
-  return datepicker.regional["nl-BE"];
-
-}) );
 /* Dutch (UTF-8) initialisation for the jQuery UI date picker plugin. */
 /* Written by Mathias Bynens <http://mathiasbynens.be/> */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.nl = {
+$.datepicker.regional.nl = {
     closeText: "Sluiten",
     prevText: "←",
     nextText: "→",
@@ -4304,26 +3425,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.nl);
-
-  return datepicker.regional.nl;
-
-}) );
 /* Norwegian Nynorsk initialisation for the jQuery UI date picker plugin. */
 /* Written by Bjørn Johansen (post@bjornjohansen.no). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.nn = {
+$.datepicker.regional.nn = {
     closeText: "Lukk",
     prevText: "&#xAB;Førre",
     nextText: "Neste&#xBB;",
@@ -4353,26 +3457,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.nn);
-
-  return datepicker.regional.nn;
-
-}) );
 /* English/UK initialisation for the jQuery UI date picker plugin. */
 /* Written by Stuart. */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional["en-GB"] = {
+$.datepicker.regional["en-GB"] = {
     closeText: "Done",
     prevText: "Prev",
     nextText: "Next",
@@ -4391,27 +3478,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional["en-GB"]);
-
-  return datepicker.regional["en-GB"];
-
-}) );
 /* Norwegian initialisation for the jQuery UI date picker plugin. */
 /* Written by Naimdjon Takhirov (naimdjon@gmail.com). */
-
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.no = {
+$.datepicker.regional.no = {
     closeText: "Lukk",
     prevText: "&#xAB;Forrige",
     nextText: "Neste&#xBB;",
@@ -4441,26 +3510,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.no);
-
-  return datepicker.regional.no;
-
-}) );
 /* Polish initialisation for the jQuery UI date picker plugin. */
 /* Written by Jacek Wysocki (jacek.wysocki@gmail.com). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.pl = {
+$.datepicker.regional.pl = {
     closeText: "Zamknij",
     prevText: "&#x3C;Poprzedni",
     nextText: "Następny&#x3E;",
@@ -4479,26 +3531,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.pl);
-
-  return datepicker.regional.pl;
-
-}) );
 /* Indonesian initialisation for the jQuery UI date picker plugin. */
 /* Written by Deden Fathurahman (dedenf@gmail.com). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.id = {
+$.datepicker.regional.id = {
     closeText: "Tutup",
     prevText: "&#x3C;mundur",
     nextText: "maju&#x3E;",
@@ -4517,26 +3552,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.id);
-
-  return datepicker.regional.id;
-
-}) );
 /* Japanese initialisation for the jQuery UI date picker plugin. */
 /* Written by Kentaro SATO (kentaro@ranvis.com). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.ja = {
+$.datepicker.regional.ja = {
     closeText: "閉じる",
     prevText: "&#x3C;前",
     nextText: "次&#x3E;",
@@ -4555,26 +3573,9 @@
     showMonthAfterYear: true,
     yearSuffix: "年"
   };
-  datepicker.setDefaults(datepicker.regional.ja);
-
-  return datepicker.regional.ja;
-
-}) );
 /* Esperanto initialisation for the jQuery UI date picker plugin. */
 /* Written by Olivier M. (olivierweb@ifrance.com). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.eo = {
+$.datepicker.regional.eo = {
     closeText: "Fermi",
     prevText: "&#x3C;Anta",
     nextText: "Sekv&#x3E;",
@@ -4593,26 +3594,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.eo);
-
-  return datepicker.regional.eo;
-
-}) );
 /* English/New Zealand initialisation for the jQuery UI date picker plugin. */
 /* Based on the en-GB initialisation. */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional["en-NZ"] = {
+$.datepicker.regional["en-NZ"] = {
     closeText: "Done",
     prevText: "Prev",
     nextText: "Next",
@@ -4631,26 +3615,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional["en-NZ"]);
-
-  return datepicker.regional["en-NZ"];
-
-}) );
 /* Inicialización en español para la extensión 'UI date picker' para jQuery. */
 /* Traducido por Vester (xvester@gmail.com). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.es = {
+$.datepicker.regional.es = {
     closeText: "Cerrar",
     prevText: "&#x3C;Ant",
     nextText: "Sig&#x3E;",
@@ -4669,26 +3636,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.es);
-
-  return datepicker.regional.es;
-
-}) );
 /* Italian initialisation for the jQuery UI date picker plugin. */
 /* Written by Antonello Pasella (antonello.pasella@gmail.com). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.it = {
+$.datepicker.regional.it = {
     closeText: "Chiudi",
     prevText: "&#x3C;Prec",
     nextText: "Succ&#x3E;",
@@ -4707,27 +3657,10 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.it);
-
-  return datepicker.regional.it;
-
-}) );
 /* Ukrainian (UTF-8) initialisation for the jQuery UI date picker plugin. */
 /* Written by Maxim Drogobitskiy (maxdao@gmail.com). */
 /* Corrected by Igor Milla (igor.fsp.milla@gmail.com). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.uk = {
+$.datepicker.regional.uk = {
     closeText: "Закрити",
     prevText: "&#x3C;",
     nextText: "&#x3E;",
@@ -4746,26 +3679,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.uk);
-
-  return datepicker.regional.uk;
-
-}) );
 /* Estonian initialisation for the jQuery UI date picker plugin. */
 /* Written by Mart Sõmermaa (mrts.pydev at gmail com). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.et = {
+$.datepicker.regional.et = {
     closeText: "Sulge",
     prevText: "Eelnev",
     nextText: "Järgnev",
@@ -4792,26 +3708,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.et);
-
-  return datepicker.regional.et;
-
-}) );
 /* Italian initialisation for the jQuery UI date picker plugin. */
 /* Written by Antonello Pasella (antonello.pasella@gmail.com). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional["it-CH"] = {
+$.datepicker.regional["it-CH"] = {
     closeText: "Chiudi",
     prevText: "&#x3C;Prec",
     nextText: "Succ&#x3E;",
@@ -4830,26 +3729,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional["it-CH"]);
-
-  return datepicker.regional["it-CH"];
-
-}) );
 /* Armenian(UTF-8) initialisation for the jQuery UI date picker plugin. */
 /* Written by Levon Zakaryan (levon.zakaryan@gmail.com)*/
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.hy = {
+$.datepicker.regional.hy = {
     closeText: "Փակել",
     prevText: "&#x3C;Նախ.",
     nextText: "Հաջ.&#x3E;",
@@ -4868,26 +3750,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.hy);
-
-  return datepicker.regional.hy;
-
-}) );
 /* Icelandic initialisation for the jQuery UI date picker plugin. */
 /* Written by Haukur H. Thorsson (haukur@eskill.is). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.is = {
+$.datepicker.regional.is = {
     closeText: "Loka",
     prevText: "&#x3C; Fyrri",
     nextText: "Næsti &#x3E;",
@@ -4914,26 +3779,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.is);
-
-  return datepicker.regional.is;
-
-}) );
 /* Turkish initialisation for the jQuery UI date picker plugin. */
 /* Written by Izzet Emre Erkan (kara@karalamalar.net). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.tr = {
+$.datepicker.regional.tr = {
     closeText: "kapat",
     prevText: "&#x3C;geri",
     nextText: "ileri&#x3e",
@@ -4952,25 +3800,8 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.tr);
-
-  return datepicker.regional.tr;
-
-}) );
 /* Hungarian initialisation for the jQuery UI date picker plugin. */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.hu = {
+$.datepicker.regional.hu = {
     closeText: "bezár",
     prevText: "vissza",
     nextText: "előre",
@@ -4989,26 +3820,9 @@
     showMonthAfterYear: true,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.hu);
-
-  return datepicker.regional.hu;
-
-}) );
 /* Tajiki (UTF-8) initialisation for the jQuery UI date picker plugin. */
 /* Written by Abdurahmon Saidov (saidovab@gmail.com). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.tj = {
+$.datepicker.regional.tj = {
     closeText: "Идома",
     prevText: "&#x3c;Қафо",
     nextText: "Пеш&#x3e;",
@@ -5027,26 +3841,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.tj);
-
-  return datepicker.regional.tj;
-
-}) );
 /* Thai initialisation for the jQuery UI date picker plugin. */
 /* Written by pipo (pipo@sixhead.com). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.th = {
+$.datepicker.regional.th = {
     closeText: "ปิด",
     prevText: "&#xAB;&#xA0;ย้อน",
     nextText: "ถัดไป&#xA0;&#xBB;",
@@ -5065,26 +3862,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.th);
-
-  return datepicker.regional.th;
-
-}) );
 /* Tamil (UTF-8) initialisation for the jQuery UI date picker plugin. */
 /* Written by S A Sureshkumar (saskumar@live.com). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.ta = {
+$.datepicker.regional.ta = {
     closeText: "மூடு",
     prevText: "முன்னையது",
     nextText: "அடுத்தது",
@@ -5119,26 +3899,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.ta);
-
-  return datepicker.regional.ta;
-
-}) );
 /* Swedish initialisation for the jQuery UI date picker plugin. */
 /* Written by Anders Ekdahl ( anders@nomadiz.se). */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.sv = {
+$.datepicker.regional.sv = {
     closeText: "Stäng",
     prevText: "&#xAB;Förra",
     nextText: "Nästa&#xBB;",
@@ -5157,26 +3920,9 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.sv);
-
-  return datepicker.regional.sv;
-
-}) );
 /* Croatian i18n for the jQuery UI date picker plugin. */
 /* Written by Vjekoslav Nesek. */
-( function (factory) {
-  if (typeof define === "function" && define.amd) {
-
-    // AMD. Register as an anonymous module.
-    define(["jquery"], factory);
-  } else {
-
-    // Browser globals
-    factory(jQuery.datepicker);
-  }
-}(function (datepicker) {
-
-  datepicker.regional.hr = {
+$.datepicker.regional.hr = {
     closeText: "Zatvori",
     prevText: "&#x3C;",
     nextText: "&#x3E;",
@@ -5195,8 +3941,3 @@
     showMonthAfterYear: false,
     yearSuffix: ""
   };
-  datepicker.setDefaults(datepicker.regional.hr);
-
-  return datepicker.regional.hr;
-
-}) );
