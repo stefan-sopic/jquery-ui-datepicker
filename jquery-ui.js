@@ -2193,7 +2193,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -2231,7 +2231,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -2269,7 +2269,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -2318,7 +2318,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -2356,7 +2356,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -2394,7 +2394,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -2435,7 +2435,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -2475,7 +2475,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -2512,7 +2512,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -2558,7 +2558,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -2604,7 +2604,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -2642,7 +2642,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -2680,7 +2680,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -2718,7 +2718,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -2756,7 +2756,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -2795,7 +2795,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -2833,7 +2833,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -2871,7 +2871,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -2909,7 +2909,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -2954,7 +2954,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -3000,7 +3000,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -3061,7 +3061,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -3102,7 +3102,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -3141,7 +3141,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -3214,7 +3214,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -3252,7 +3252,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -3290,7 +3290,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -3328,7 +3328,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -3374,7 +3374,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -3411,7 +3411,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -3449,7 +3449,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -3487,7 +3487,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -3534,7 +3534,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -3572,7 +3572,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -3610,7 +3610,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -3648,7 +3648,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -3688,7 +3688,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -3726,7 +3726,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -3764,7 +3764,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -3802,7 +3802,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -3840,7 +3840,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -3878,7 +3878,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -3916,7 +3916,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -3954,7 +3954,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -3992,7 +3992,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -4030,7 +4030,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -4076,7 +4076,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -4114,7 +4114,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -4152,7 +4152,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -4201,7 +4201,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -4239,7 +4239,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -4277,7 +4277,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -4315,7 +4315,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -4364,7 +4364,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -4403,7 +4403,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -4452,7 +4452,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -4490,7 +4490,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -4528,7 +4528,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -4566,7 +4566,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -4604,7 +4604,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -4642,7 +4642,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -4680,7 +4680,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -4719,7 +4719,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -4757,7 +4757,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -4803,7 +4803,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -4841,7 +4841,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -4879,7 +4879,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -4925,7 +4925,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -4962,7 +4962,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -5000,7 +5000,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -5038,7 +5038,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -5076,7 +5076,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -5130,7 +5130,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
@@ -5168,7 +5168,7 @@
   if (typeof define === "function" && define.amd) {
 
     // AMD. Register as an anonymous module.
-    define(["../widgets/datepicker"], factory);
+    define(["jquery"], factory);
   } else {
 
     // Browser globals
